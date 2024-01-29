@@ -1,0 +1,121 @@
+main {
+    font-weight: 400;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+form {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container_eng {
+    border-radius: 5px;
+    background-color: #fad18f;
+    padding: 20px;
+}
+
+button {
+    font-size: 120%;
+    width: 120px;
+    height: 42px;
+    border: none;
+    background: #7BA7AB;
+    border-radius: 8px 8px 8px 8px;
+    cursor: pointer;
+}
+
+.field{
+    background: #fbfbfb;
+    font-size: 120%;
+    line-height: 1;
+    width: 100%;
+    padding: 5px;
+    margin: 0 6px 5px 0;
+    outline: none;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+}
+
+.lang{
+    font-size: 120%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 4px;
+}
+
+textarea:focus {
+    background-color: lightblue;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+main label{
+    color: #777;
+    font-size: 150%;
+}
+
+main h2{
+    font-weight: 900;
+    font-size: 180%;
+}
+
+.line {
+    border-bottom: 6px solid #04396C; /* Параметры линии */
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 320px;
+    background-color: #170a68;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px ;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+    font-size: 100%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;}
